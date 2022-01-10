@@ -49,3 +49,7 @@ div {
   height: 60px;
   width: 60px;
 }
+
+.previous, .next {
+  cursor: pointer;
+}
