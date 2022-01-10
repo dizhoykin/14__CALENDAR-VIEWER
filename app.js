@@ -79,7 +79,7 @@ const setCalendar = () => {
     }
   }
 
-  for (let i = 0; i < countOfEmptyCellsAtTheEndofMonth; i++) {
+  for (let i = 0; i < countOfEmptyCellsAtTheEndofMonth - 1; i++) {
     const emptyCell = cellItemNode.cloneNode(true);
     wrapper.appendChild(emptyCell);
   }
